@@ -24,6 +24,7 @@ image:
 ogImage:
   src: https://res.cloudinary.com/dellp9a4z/image/upload/v1756653540/why_most_fail_at_marketing_iropjm.webp 
 ---
+
 ## Mindset
 
 ### Why marketing matters

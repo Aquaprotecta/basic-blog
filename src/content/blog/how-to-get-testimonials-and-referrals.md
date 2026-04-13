@@ -25,6 +25,7 @@ image:
 ogImage:
   src: https://res.cloudinary.com/dellp9a4z/image/upload/v1756655991/testimonials_zufmeq.webp 
 ---
+
 In the [**last post**](/blog/how-to-manage-a-client-project), we delivered a fantastic client experience. The project is a success, and they're happy.
 
 Most people stop here. They send the final invoice and say goodbye.

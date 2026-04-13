@@ -23,16 +23,8 @@ interface Props {
 const { entry, loading = "eager", fetchpriority = "high" } = Astro.props;
 
 const { data, collection, meta } = entry;
-const {
-    title,
-    pubDate,
-    updatedDate,
-    authors = SITE_SETTINGS.owner,
-    featured,
-    image,
-    series,
-    tags,
-} = data;
+const { title, pubDate, updatedDate, authors, featured, image, series, tags } =
+    data;
 const { readingTimeText } = meta || {};
 
 const license = data.license ? await getEntry(data.license) : undefined;
@@ -54,7 +46,13 @@ const repoUrl = "repoUrl" in data ? data.repoUrl : undefined;
     <div class="flex flex-wrap gap-6 text-gray-700 dark:text-gray-300">
         <div class="flex items-center gap-2">
             <Icon name="lucide:user-pen" class="size-5" />
-            <span>{Array.isArray(authors) ? authors.join(", ") : authors}</span>
+            <span
+                >{
+                    authors.length > 0
+                        ? authors.join(", ")
+                        : SITE_SETTINGS.owner
+                }</span
+            >
         </div>
         <div class="flex items-center gap-2">
             <Icon name="lucide:calendar" class="size-5" />

@@ -26,6 +26,7 @@ image:
 ogImage:
   src: https://res.cloudinary.com/dellp9a4z/image/upload/v1756654990/how_to_build_trust_o6lmlk.webp 
 ---
+
 In the [last post](/blog/why-most-people-fail-at-marketing), we mapped the path from stranger → client. But there's a missing gear:
 
 > **None of it works without trust.**

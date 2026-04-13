@@ -26,6 +26,7 @@ image:
 ogImage:
   src: https://res.cloudinary.com/dellp9a4z/image/upload/v1756653607/onboarding_o6iipk.webp 
 ---
+
 In the [**last post**](/blog/how-to-make-an-offer-that-sells), your offer was accepted. The client said yes.
 
 This is the most dangerous moment in the entire client relationship.
