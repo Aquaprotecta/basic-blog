@@ -248,7 +248,7 @@ fonts: [
 font-family: var(--font-custom), system-ui, sans-serif;
 ```
 
-*For more info on using remote fonts (Google Fonts, etc.), check the [Astro Font Provider Reference](https://docs.astro.build/en/reference/font-provider-reference/).*
+*For more info on using remote fonts (Google Fonts, etc.), check the [Astro Font Provider Reference.](https://docs.astro.build/en/reference/font-provider-reference/)*
 
 ## Forms & Bot Protection
 

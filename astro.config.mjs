@@ -102,16 +102,7 @@ export default defineConfig({
         ],
       },
       styleDirective: {
-        resources: ["'self'", "'unsafe-hashes'"],
-        hashes: [
-          "sha256-y2JW07Q0/vstgbPj/xxtTnjG70DPkHRftv4fFS7r5sk=",
-          "sha256-9G4h3Bt2rC8Ty15cZ/qd2TP2iSP3TULSYvKnTPWzbyE=",
-          "sha256-nBuQodxHbMFGFDc+709UWrh0nGQICZuQQlLQkhPrmW4=",
-          "sha256-TqO3OLUG4Ila2f/GgYSKdMkr8Eu3FF5u9vV/7qCKYlA=",
-          "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-          "sha256-Z1HxjJ2kQ5UaOV2Ds31+5xdy+WTAWc3c9W2P8ISEtoM=",
-          "sha256-OHHJt3V7bbGQVFFoSS8ClWV1uXy19wbP3kJTdWrvtd4=",
-        ],
+        resources: ["'self'", "'unsafe-inline'"],
       },
     },
   },
