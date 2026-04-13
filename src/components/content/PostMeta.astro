@@ -12,6 +12,7 @@ import { formatDate } from "../../utils/formatDate";
 import type { CldImageProps } from "astro-cloudinary";
 import { Icon } from "astro-icon/components";
 import type { ContentEntry, ImageLoading, WithMeta } from "../../types";
+import { SITE_SETTINGS } from "../../site.config";
 
 interface Props {
     entry: WithMeta<ContentEntry>;
@@ -22,8 +23,16 @@ interface Props {
 const { entry, loading = "eager", fetchpriority = "high" } = Astro.props;
 
 const { data, collection, meta } = entry;
-const { title, pubDate, updatedDate, authors, featured, image, series, tags } =
-    data;
+const {
+    title,
+    pubDate,
+    updatedDate,
+    authors = SITE_SETTINGS.owner,
+    featured,
+    image,
+    series,
+    tags,
+} = data;
 const { readingTimeText } = meta || {};
 
 const license = data.license ? await getEntry(data.license) : undefined;
