@@ -154,6 +154,8 @@ Add the image details to the Frontmatter of your Markdown files. The template wi
 image:
   src: "https://res.cloudinary.com/.../how_to_build_trust.webp"
   alt: "A hand-drawn sketch representing stability with labels: 'Know', 'Like', and 'Trust'."
+ogImage:
+  src: "https://res.cloudinary.com/.../how_to_build_trust.webp"
 ```
 
 ## Image Optimization
