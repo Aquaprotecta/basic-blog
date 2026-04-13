@@ -10,6 +10,7 @@
   - Native Font Optimization
   - Pre-configured CSP (Content Security Policy) and security headers (optimized for Cloudflare, easily adaptable for Vercel or Netlify).
    ![HTTP Observatory](https://github.com/user-attachments/assets/9f6b93d8-25fa-4b15-ab78-431255ad8e23)
+- Dark and Light mode
 - Responsive: mobile, tablet, and desktop devices.
 - Stack: Astro, Tailwind, and JS.
 
