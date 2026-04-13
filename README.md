@@ -2,15 +2,14 @@
 
 **Basic Blog** is a mostly lightweight, high-performance blog template built with Astro 6.
 
-
+![basic-blog](https://github.com/user-attachments/assets/b365f571-3047-4af3-9e79-44e18cdbb32b)
 
 **Features**
 
 - Astro 6+ Ready:
   - Native Font Optimization
   - Pre-configured CSP (Content Security Policy) and security headers (optimized for Cloudflare, easily adaptable for Vercel or Netlify).
-   
-  
+   ![HTTP Observatory](https://github.com/user-attachments/assets/9f6b93d8-25fa-4b15-ab78-431255ad8e23)
 - Responsive: mobile, tablet, and desktop devices.
 - Stack: Astro, Tailwind, and JS.
 
