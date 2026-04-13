@@ -11,7 +11,7 @@ import rehypeSlug from "rehype-slug";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://basic-blog.pages.dev",
+  site: "https://basic-blog-5u9.pages.dev/",
 
   fonts: [
     {
@@ -78,15 +78,9 @@ export default defineConfig({
         "worker-src 'self' blob: https://challenges.cloudflare.com",
         "child-src 'self' https://challenges.cloudflare.com blob:",
         "manifest-src 'none'",
-        "form-action 'self'",
       ],
       scriptDirective: {
-        resources: [
-          "'self'",
-          "https://challenges.cloudflare.com",
-          "blob:",
-          "'unsafe-eval'",
-        ],
+        resources: ["'self'", "https://challenges.cloudflare.com", "blob:"],
         hashes: [
           "sha256-+D181lN2Iw1b9lkNhIL2BSfLXvTnxTpdqxKE5OjSgk0=",
           "sha256-UnpvhDyF7OXferJXLLEvpK6eSVKujiCxuakCMAAfX0k=",
