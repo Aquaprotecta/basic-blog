@@ -1,7 +1,8 @@
 ---
 draft: false
 featured: none
-authors: Daniel Adrian
+authors:
+  - Daniel Adrian
 title: Basic Blog 
 description: >-
   Basic Blog is a mostly lightweight, high-performance blog template built with Astro.
