@@ -22,7 +22,8 @@ image:
     a trail of footprints with a large magnifying glass. The footprints lead to
     a happy group of characters gathered around a campfire, which is labeled
     'Your Audience'.
-ogImage: {}
+ogImage:
+  src: https://res.cloudinary.com/dellp9a4z/image/upload/v1756653589/how-to-find-your-audience_va3ay6.webp
 ---
 In the [**last post**](/blog/how-to-build-trust-with-content), we covered the three types of content you need to create. But brilliant content is useless if no one sees it.
 

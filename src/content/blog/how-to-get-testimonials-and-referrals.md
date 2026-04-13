@@ -23,7 +23,8 @@ image:
     another character. This second character is smiling as they kneel in a
     garden, planting a seedling. In the background, several small plants with
     smiling faces are sprouting from the ground, labeled 'NEW CLIENTS'.
-ogImage: {}
+ogImage:
+  src: https://res.cloudinary.com/dellp9a4z/image/upload/v1756655991/testimonials_zufmeq.webp 
 ---
 In the [**last post**](/blog/how-to-manage-a-client-project), we delivered a fantastic client experience. The project is a success, and they're happy.
 

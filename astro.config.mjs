@@ -21,9 +21,10 @@ export default defineConfig({
       options: {
         variants: [
           {
-            src: ["./src/assets/fonts/Inter.ttf"],
+            src: ["./src/assets/fonts/Inter.woff2"],
             weight: "normal",
             style: "normal",
+            display: "swap",
           },
         ],
       },
@@ -35,9 +36,10 @@ export default defineConfig({
       options: {
         variants: [
           {
-            src: ["./src/assets/fonts/JetBrainsMono.ttf"],
+            src: ["./src/assets/fonts/JetBrainsMono.woff2"],
             weight: "normal",
             style: "normal",
+            display: "swap",
           },
         ],
       },
@@ -48,7 +50,10 @@ export default defineConfig({
     sitemap(),
     pagefind(),
     icon(),
-    expressiveCode({ plugins: [pluginLineNumbers()] }),
+    expressiveCode({
+      plugins: [pluginLineNumbers()],
+      themes: ["aurora-x"],
+    }),
   ],
 
   markdown: {

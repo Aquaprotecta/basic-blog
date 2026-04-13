@@ -23,7 +23,8 @@ image:
     'UNCERTAINTY'. A doorway opens, and a bright beam of light labeled 'WEEKLY
     UPDATE' cuts through the darkness, cast by a figure standing in the doorway,
     representing the marketer providing clarity.
-ogImage: {}
+ogImage:
+  src: https://res.cloudinary.com/dellp9a4z/image/upload/v1756661883/how-to-manage-a-client-project_z1q3gx.webp 
 ---
 In the [**last post**](/blog/how-to-onboard-a-new-client), we nailed the first week. The client is confident, you're aligned, and the momentum is high.
 

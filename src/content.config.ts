@@ -12,7 +12,7 @@ const featuredSchema = z
 
 const imageSchema = z.object({
   src: z.string().url(),
-  alt: z.string().min(1, { message: "Image alt text cannot be empty." }),
+  alt: z.string().optional(),
 });
 
 const ogImageOptionalSchema = z

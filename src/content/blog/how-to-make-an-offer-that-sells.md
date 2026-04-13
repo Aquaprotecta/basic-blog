@@ -24,8 +24,10 @@ image:
     labeled 'OUTCOME', a happy sun shines. In the middle, a helpful character is
     finishing a rope bridge, which has a wooden sign hanging from it that reads
     'YOUR OFFER'.
-ogImage: {}
+ogImage:
+  src: https://res.cloudinary.com/dellp9a4z/image/upload/v1756653612/offer_pbtewp.webp
 ---
+
 In the [**last post**](/blog/how-to-find-your-audience), we found where your clients are. You've listened, you've engaged, and you've built trust.
 
 Now for the moment that trips everyone up.

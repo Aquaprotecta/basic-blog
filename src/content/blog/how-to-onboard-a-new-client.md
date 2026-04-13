@@ -24,7 +24,8 @@ image:
     nervous-looking cartoon airplane, labeled 'NEW CLIENT', for a landing. The
     light from the flashlights illuminates the runway, revealing the words
     'ONBOARDING PROCESS' and showing a clear, safe path.
-ogImage: {}
+ogImage:
+  src: https://res.cloudinary.com/dellp9a4z/image/upload/v1756653607/onboarding_o6iipk.webp 
 ---
 In the [**last post**](/blog/how-to-make-an-offer-that-sells), your offer was accepted. The client said yes.
 

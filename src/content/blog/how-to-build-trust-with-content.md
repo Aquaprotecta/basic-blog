@@ -22,7 +22,8 @@ image:
     cartoon-style person is sitting on a sturdy, three-legged wooden stool. The
     illustration represents stability, as each of the three legs is clearly
     labeled with a foundational element: 'Know', 'Like', and 'Trust'.
-ogImage: {}
+ogImage:
+  src: https://res.cloudinary.com/dellp9a4z/image/upload/v1756654990/how_to_build_trust_o6lmlk.webp 
 ---
 In the [last post](/blog/why-most-people-fail-at-marketing), we mapped the path from stranger → client. But there's a missing gear:
 

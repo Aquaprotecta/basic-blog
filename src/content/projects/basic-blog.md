@@ -1,16 +1,33 @@
-# Basic Blog
+---
+draft: false
+featured: none
+author: Daniel Adrian
+title: Basic Blog 
+description: >-
+  Basic Blog is a mostly lightweight, high-performance blog template built with Astro.
+pubDate: 2025-08-02T07:46:00.000Z
+license: MIT
+series: blog project
+tags:
+  - astro 
+  - tailwind 
+  - js
+image:
+  src: >-
+    https://res.cloudinary.com/dellp9a4z/image/upload/v1776091800/basic-blog_ouz5xk.jpg
+  alt: >-
+    Screenshot of the "Daniel Adrian" blog homepage featuring a dark UI and three featured articles with hand-drawn, sketch-style illustrations on a textured tan background. 
+ogImage:
+  src: https://res.cloudinary.com/dellp9a4z/image/upload/v1776091800/basic-blog_ouz5xk.jpg
+---
 
 **Basic Blog** is a mostly lightweight, high-performance blog template built with Astro 6.
-
-
 
 **Features**
 
 - Astro 6+ Ready:
   - Native Font Optimization
-  - Pre-configured CSP (Content Security Policy) and security headers (optimized for Cloudflare, easily adaptable for Vercel or Netlify).
-   
-  
+  - Pre-configured CSP (Content Security Policy) and security headers (optimized for Cloudflare, easily adaptable for Vercel or Netlify). 
 - Responsive: mobile, tablet, and desktop devices.
 - Stack: Astro, Tailwind, and JS.
 
