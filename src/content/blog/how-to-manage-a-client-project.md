@@ -1,7 +1,6 @@
 ---
 draft: false
 featured: none
-author: Daniel Adrian
 title: How to Manage a Client Project
 description: >-
   Great work isn't enough if clients feel left in the dark. Silence breeds

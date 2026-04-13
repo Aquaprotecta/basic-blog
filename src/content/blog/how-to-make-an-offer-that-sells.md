@@ -1,7 +1,6 @@
 ---
 draft: false
 featured: '3'
-author: Daniel Adrian
 title: How to Make an Offer That Sells
 description: >-
   Clients don't buy coaching, design, or consulting — they buy the future

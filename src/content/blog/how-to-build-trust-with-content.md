@@ -1,7 +1,8 @@
 ---
 draft: false
 featured: none
-author: Daniel Adrian
+authors:
+  - Daniel Adrian
 title: How to Build Trust with Content
 description: >-
   If your content isn't getting sales, you're likely missing the right mix of

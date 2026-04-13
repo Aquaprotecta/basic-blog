@@ -1,7 +1,6 @@
 ---
 draft: false
 featured: '1'
-author: Daniel Adrian
 title: Why Most People Fail at Marketing
 description: >-
   Everyone is selling a magic funnel or a viral hack. The truth? Real growth

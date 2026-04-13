@@ -1,7 +1,6 @@
 ---
 draft: false
 featured: none
-author: Daniel Adrian
 title: How to Onboard a New Client
 description: >-
   The most dangerous moment in any client relationship is right after they pay —

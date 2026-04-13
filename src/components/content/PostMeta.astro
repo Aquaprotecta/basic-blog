@@ -54,7 +54,7 @@ const repoUrl = "repoUrl" in data ? data.repoUrl : undefined;
     <div class="flex flex-wrap gap-6 text-gray-700 dark:text-gray-300">
         <div class="flex items-center gap-2">
             <Icon name="lucide:user-pen" class="size-5" />
-            <span>{authors}</span>
+            <span>{Array.isArray(authors) ? authors.join(", ") : authors}</span>
         </div>
         <div class="flex items-center gap-2">
             <Icon name="lucide:calendar" class="size-5" />

@@ -1,7 +1,6 @@
 ---
 draft: false
 featured: none
-author: Daniel Adrian
 title: How to Get Testimonials and Referrals
 description: >-
   Most people think the client journey ends with a happy delivery. Wrong. That's
