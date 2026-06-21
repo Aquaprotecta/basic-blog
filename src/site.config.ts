@@ -1,73 +1,80 @@
 export const SITE_SETTINGS = {
-  title: "Daniel Adrian's site",
-  description: "A space to explore ideas and share what I'm learning",
-  owner: "Daniel Adrian",
-  ogImages:
-    "https://res.cloudinary.com/dellp9a4z/image/upload/v1756758385/og-home_ejuqq8.png",
+  title: "BudgetGains",
+  description: "Eerlijke reviews van budgetvriendelijke fitnessuitrusting en krachttraining tips voor beginners. Slim trainen zonder de bank te breken.",
+  owner: "BudgetGains",
+  ogImages: "",
   socials: [
     {
-      icon: "github",
-      label: "GitHub",
-      url: "https://github.com/truedaniyyel",
-      handle: "truedaniyyel",
+      icon: "instagram",
+      label: "Instagram",
+      url: "https://instagram.com/budgetgains",
+      handle: "budgetgains",
     },
   ],
 };
 
 export const header = [
   {
-    name: "Blog",
+    name: "Artikelen",
     url: "/blog",
   },
   {
-    name: "Projects",
-    url: "/projects",
+    name: "Beginnersgids",
+    url: "/blog/category/beginnersgids",
   },
   {
-    name: "About",
+    name: "Uitrusting",
+    url: "/blog/category/uitrusting",
+  },
+  {
+    name: "Budget spullen",
+    url: "/blog/category/budget-spullen",
+  },
+  {
+    name: "Over ons",
     url: "/about",
-  },
-  {
-    name: "Contact",
-    url: "/contact",
-  },
-  {
-    name: "Newsletter",
-    url: "/newsletter",
   },
 ];
 
 export const footer = [
   {
-    title: "Content",
+    title: "Inhoud",
     links: [
       {
-        name: "Search",
-        url: "/search",
-      },
-      {
-        name: "Blog",
+        name: "Alle artikelen",
         url: "/blog",
       },
       {
-        name: "Projects",
-        url: "/projects",
+        name: "Beginnersgids",
+        url: "/blog/category/beginnersgids",
       },
       {
-        name: "About",
-        url: "/about",
+        name: "Uitrusting reviews",
+        url: "/blog/category/uitrusting",
+      },
+      {
+        name: "Budget spullen",
+        url: "/blog/category/budget-spullen",
+      },
+      {
+        name: "Voeding",
+        url: "/blog/category/voeding",
       },
     ],
   },
   {
-    title: "Resources",
+    title: "Overig",
     links: [
+      {
+        name: "Over ons",
+        url: "/about",
+      },
       {
         name: "Contact",
         url: "/contact",
       },
       {
-        name: "Newsletter",
+        name: "Nieuwsbrief",
         url: "/newsletter",
       },
       {
